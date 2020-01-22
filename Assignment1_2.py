@@ -25,6 +25,8 @@ v = V / np.sqrt(U**2 + V**2)
 
 #plt.quiver(X,Y,u,v, color=cm(norm(amp)))
 plt.quiver(X,Y,u,v)
+x = np.linspace(-2,2,1000)
+
 plt.plot(x,(x**3 - x)**(1/3))
 plt.plot(x,-(-(x**3 - x))**(1/3))
 #plt.colorbar(sm)
